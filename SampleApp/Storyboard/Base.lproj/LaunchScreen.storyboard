@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="LD1-hC-aVg">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Cru-Cv-Bzj">
+            <objects>
+                <viewController id="LD1-hC-aVg" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="srz-x5-FWP"/>
+                        <viewControllerLayoutGuide type="bottom" id="0KG-jf-5jB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iP3-OU-7rz">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="app_background" translatesAutoresizingMaskIntoConstraints="NO" id="zxQ-z8-Jh6">
+                                <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eWd-1R-dLl">
+                                <rect key="frame" x="16" y="451.33333333333331" width="398" height="29.333333333333314"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Sample App">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="26" name="Arial-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="ThemeDark"/>
+                        <constraints>
+                            <constraint firstItem="eWd-1R-dLl" firstAttribute="centerY" secondItem="iP3-OU-7rz" secondAttribute="centerY" id="BNA-5f-eZH"/>
+                            <constraint firstItem="eWd-1R-dLl" firstAttribute="leading" secondItem="iP3-OU-7rz" secondAttribute="leading" constant="16" id="HU2-7M-cVb"/>
+                            <constraint firstAttribute="trailing" secondItem="zxQ-z8-Jh6" secondAttribute="trailing" id="MfB-N7-awB"/>
+                            <constraint firstItem="eWd-1R-dLl" firstAttribute="centerX" secondItem="iP3-OU-7rz" secondAttribute="centerX" id="Rfc-i1-ql2"/>
+                            <constraint firstAttribute="bottom" secondItem="zxQ-z8-Jh6" secondAttribute="bottom" id="TaB-fj-huT"/>
+                            <constraint firstItem="zxQ-z8-Jh6" firstAttribute="leading" secondItem="iP3-OU-7rz" secondAttribute="leading" id="XTu-zY-tEd"/>
+                            <constraint firstItem="zxQ-z8-Jh6" firstAttribute="top" secondItem="iP3-OU-7rz" secondAttribute="top" id="baQ-7J-8sL"/>
+                            <constraint firstAttribute="trailing" secondItem="eWd-1R-dLl" secondAttribute="trailing" constant="16" id="ddT-ff-MHN"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tZ4-zp-NFl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1564" y="-1"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="app_background" width="125" height="272"/>
+        <namedColor name="ThemeDark">
+            <color red="0.0" green="0.42352941176470588" blue="0.29803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

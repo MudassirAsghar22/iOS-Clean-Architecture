@@ -1,0 +1,136 @@
+//
+//  Localizable.strings
+//  Sample App
+//
+//  Created by Mudassir Asghar on 09/05/2024.
+//
+
+// MARK: - General
+"Error" = "Error";
+"ok" = "OK";
+"dismiss" = "Dismiss";
+
+// MARK: - TabBar Controller
+"home" = "Home";
+"reports" = "Reports";
+"notifications" = "Notifications";
+"more" = "More";
+////
+// MARK: - PermissionManager
+"Require_access_Push_Notifications_msg" = "The app requires access to Push Notifications to keep you updated on your shifts status. Would you like to open settings and grant permission to Push Notifications?";
+
+"Require_access_to_Photo_library_msg" = "This app requires to access photos to allow user to pick picture as attachment to DFR.";
+
+"Require_access_to_Camera_msg" = "This app requires to access camera to capture picture as attachment to DFR.";
+
+"Require_access_to_location_msg" = "This App requires the location to show distance from site and draw path from current location.";
+
+"Seems_location_services_turned_off_msg" = "The App requires the location to show distance from site and draw path from current location. Seems like location services are turned off, please enable location from settings to proceed.";
+
+"Open_Settings" = "Open Settings";
+/////
+
+// MARK: - Login
+"Something_went_wrong_please_try_again" = "Something went wrong, please try again...";
+"Please_enter_valid_email_address" = "Please enter a valid email address";
+"please_enter_the_valid_username" = "Please enter the valid username";
+"Enter_pwd" = "Please enter the password";
+"Something_went_wrong" = "Something went wrong.";
+"No_internet_connection_Tap_to_retry" = "No internet connection, please tap to retry";
+"login_session_expired" = "Login Session Expired";
+
+// MARK: - MoreVC
+"logout" = "Logout";
+"privacy_policy" = "Privacy Policy";
+
+// MARK: - VerifyResetPasswordVC
+"enter_your_registered_email" = "Enter Your Registered Email";
+"resend_otp" = "Resend OTP";
+"Code_resent_successfully" = "Code resent successfully";
+"verify_otp" = "Verify OTP";
+
+// MARK: - ResetPasswordVC
+"Enter_pwd" = "Please enter the password";
+"Confirm_password_not_match" = "confirm password does not match";
+
+// MARK: - HomeVC
+"submitted_reports" = "Submitted Reports";
+"all_shifts" = "All Shifts";
+"shifts_completed" = "Shifts Completed";
+"pending_reports" = "Pending Reports";
+"no_data_found" = "No Data Found...";
+"today_shifts" = "Today Shifts";
+"upcoming_shifts" = "Upcoming Shifts";
+
+// MARK: -  ShiftsListVC
+"today_shifts" = "Today's Shifts";
+"all_shifts" = "All Shifts";
+"pending_to_start" = "Pending to start";
+"in_progress" = "In Progress";
+"pending_report" = "Pending Report";
+"em_review" = "EM Review";
+"pm_review" = "PM Review";
+"report_rejected" = "Report Rejected";
+"completed" = "Completed";
+"invalid_status" = "Invalid Status";
+"project#" = "Project No";
+"End_date_greater_than_start_date" = "End date should be greater than the start date.";
+
+// MARK: - ShiftDetailsVC
+"checking_in" = "Checking In...";
+"checking_out" = "Checking Out...";
+"slide_to_checkin" = "Slide to CheckIn";
+"slide_to_checkout" = "Slide to CheckOut";
+// MARK: - DFRFormsVC
+"enter_project_name" = "Please enter the project name";
+"enter_project_number" = "Please enter the project number";
+"select_inspection_date" = "Please select the inspection date";
+"enter_gas_tag_number" = "Please enter the gas tag number";
+"enter_hours" = "Please enter the hours";
+"select_permit_type" = "Please select permit type";
+"enter_building_permit" = "Please enter the building permit";
+"enter_mechanical_permit" = "Please enter the mechanical permit";
+"etner_plumbing_permit" = "Please enter the plumbing permit";
+"enter_electircal_permit" = "Please enter the electrical permit";
+"enter_other_permit" = "Please enter the other permit";
+"select_the_inspected" = "Please select the inspected";
+"select_approve_of_occupancy" = "Please select the approve of occupancy";
+"check_one" = "Check One";
+"inspection_decline" = "Inspection Decline";
+"select_inspection_type" = "Please select the inspection type";
+"floor" = "Floor";
+"area" = "Area";
+"suits" = "Suits";
+"enter_observation" = "Inspected observation field is missing.";
+"check_one_required" = "Check one field is missing.";
+"report_required" = "Report field is missing.";
+"inspection_discipline_required" = "Inspection discipline field is missing.";
+"inspection_type_required" = "Inspection type field is missing.";
+"approved_for_occupancy" = "Approved for occupancy field is missing.";
+"attachment_missing" = "Attachment is missing";
+"attachment" = "Attachment";
+"attachment_corrupt" = "Something is wrong with the attachment, please re-attach the file(s) and try again";
+"contractor_signature_missing" = "Contractor signature is missing";
+"reported_submitted_successfully" = "Report submitted successfully";
+"dfr_submitted_from_web" = "Please note, that this report was submitted from the web-app. Please log in to the web app to see details of the DFR";
+"internet_connection_not_available_dont_worry_your_input_data_is_saved_you_can_sync_it_with_server_later" = "It seems like the internet connection is not available, but don't worry as your input data has been saved locally and you can sync it with server later when you have access to the internet";
+"retry_upload" = "Retry Upload";
+
+// MARK: - ReportsVC
+"pending" = "Pending";
+"pm_review" = "PM Review";
+"approved" = "Approved";
+"rejected" = "Rejected";
+"all" = "All";
+"unable_to_delete_the_file" = "Something went wrong, unable to delete the file";
+"permit_type" = "Permit Type";
+"inspected" = "Inspected";
+"approve_of_occupancy" = "Approve of Occupancy";
+"inspection_type" = "Inspection Type";
+"report_can_be_submitted_only_if" = "This report can be submitted or previewed if the on-site date is today, or if you have checked out first, or if you have already submitted it.";
+"preview_report" = "Preview Report";
+"initiate_report" = "Initiate Report";
+
+// MARK: - NotificationsInbox
+"sure_to_delete_all_notifications" = "Are you sure to empty notifications inbox?";
+"Received" = "Received %@";

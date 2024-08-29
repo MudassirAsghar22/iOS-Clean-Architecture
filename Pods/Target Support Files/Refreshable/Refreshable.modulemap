@@ -1,0 +1,6 @@
+framework module Refreshable {
+  umbrella header "Refreshable-umbrella.h"
+
+  export *
+  module * { export * }
+}

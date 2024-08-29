@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "pict--weather-app-icons---vector-stencils-library.png--diagram-flowchart-example.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "pict--weather-app-icons---vector-stencils-library.png--diagram-flowchart-example 1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "pict--weather-app-icons---vector-stencils-library.png--diagram-flowchart-example 2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
